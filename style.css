@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+#main{
+    position:sticky;
+    top:0;
+    background-color: #2d3436;
+}
+.navbar-nav{
+    margin-left:auto;
+    font-size:25px;
+    height:50%;
+    
+}
+.navbar-nav li a{
+    color: white !important;
+    }
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 95vh;
+  background-color: #B33771;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #B33771 100%);
+}
+#welcome-section>h1,p{
+ color:white;
+}
+
+#projects{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+    height: 95vh;
+    background-color: #d1ccc0;
+}
+#projects>h1{
+    color:#0000 !important;
+}
+#projects>h2{
+    font-size: 40px;
+}
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+  }
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:50px;
+
+}
+.box{
+    height:300px;
+    width:500px;
+    box-shadow: #70a1ff;
+    display:relative;
+    box-shadow: #0000;
+
+}
+
+#box1{
+    width:400px;
+    height:300px;
+    margin-left:20px;
+    border-radius: 5px;
+}
+#img1{
+    width:400px;
+    height:350px;
+    box-sizing: border-box;
+    border:15px solid #ecf0f1;
+    
+}
+#box2{
+    width:400px;
+    height:300px;
+    margin-left:20px;
+}
+#img2{
+    width:400px;
+    height:350px;
+    box-sizing: border-box;
+    border:15px solid #ecf0f1;
+}
+#box3{
+    width:400px;
+    height:300px;
+    margin-left:20px;
+}
+#img3{
+    width:400px;
+    height:350px;
+    box-sizing: border-box;
+    border:15px solid #ecf0f1;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      width: 100%;
+      height: 95vh;
+      background-color: #fff200;
+}
+#contact>h1{
+    font-size: 40px;
+
+}
+#svg{
+    size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
